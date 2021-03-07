@@ -15,9 +15,4 @@ target_include_directories(hello
         hello/private
 )
 
-target_include_directories(hello
-    PUBLIC hello/include
-    PRIVATE hello/private
-)
-
 add_subdirectory(examples)
